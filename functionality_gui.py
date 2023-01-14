@@ -25,7 +25,7 @@ main_window.columnconfigure(2, weight=1)
 cx_Oracle.init_oracle_client(lib_dir=r"C:\instantclient_21_7")
 
 # Connection string which will login to our specific database
-conn = 'nfrobson/05066490@oracle12c.scs.ryerson.ca:1521/orcl12c'
+conn = 'confidential'
 # Creating connection and cursor objects
 connection = cx_Oracle.connect(conn)
 cur = connection.cursor()
